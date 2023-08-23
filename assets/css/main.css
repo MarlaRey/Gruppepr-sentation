@@ -2,50 +2,46 @@
 body{
     width: 900px;
     margin: auto;
+    font-family: sans-serif;
 }
+
 #gunn{
 width: 10%;
 }
 
-#knapper a{
-    background-color: blueviolet;
-    padding: 1rem; 
-    text-decoration: none;
-}
-
-#knapper{
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-}
 h1{
     background-color: rgb(5, 5, 68);
     padding: 4rem;
-    color: aliceblue;
+    color: rgb(253, 253, 253);
     text-align: center;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 1rem;
 
 }
+        /* NAVIGATION */
+        .nav-main {
+            display: flex;
+    flex-direction: column;
 
-body img{
-width: 100%;
-}
+    
+            gap: 1rem;
+            
+        }
+        ul li{
+            list-style: none;
+            text-align: center;
+        }
 
-ul#main_menu li {
-    display:block;
-    list-style:none;
-    float:left;
-    }
-    ul#main_menu li a{
-    display: inline-block;
-    background-color: #fefefe;
-    border: 2px solid;
-    padding: 3px;
-    border-radius: 5px 5px;
-    color:rgb(40,40,40);
-    text-decoration:none;
-    }
-    ul#main_menu li a:hover {
-    background-color: #ff0000;
-    border: 3px solid;
-    }
+        ul li a{
+            text-align: center;
+            text-decoration: none;
+            color: antiquewhite;
+            background-color: rgb(106, 67, 245);
+            padding: 1rem;
+            border-radius: 8px;
+            width: 400px;
+       
+    
+        }
 
