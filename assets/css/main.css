@@ -16,32 +16,37 @@ h1{
     text-align: center;
     width: 400px;
     margin: auto;
-    margin-bottom: 1rem;
+    font-size: 4rem;
+    border-radius: 10px;
 
 }
         /* NAVIGATION */
         .nav-main {
+   margin: auto;
+          }
+        
+          .nav-main ul {
             display: flex;
-    flex-direction: column;
-
-    
-            gap: 1rem;
-            
-        }
-        ul li{
+            /* justify-content:center; */
+            flex-direction: column;
+            padding-right: 2rem;
+            margin-top: 2rem;
+            gap: 4rem;
             list-style: none;
             text-align: center;
-        }
-
-        ul li a{
-            text-align: center;
+           
+          }
+          .nav-main ul li{
+            background-color: blueviolet;
+            padding: 2rem;
+            width: 300px;
+            margin: auto;
+            border-radius: 10px;
+          }
+          .nav-main a{
             text-decoration: none;
-            color: antiquewhite;
-            background-color: rgb(106, 67, 245);
-            padding: 1rem;
-            border-radius: 8px;
-            width: 400px;
-       
-    
-        }
-
+            padding: 2rem;
+font-size: 30px;
+            color: white;
+            margin: 1rem;
+          }
