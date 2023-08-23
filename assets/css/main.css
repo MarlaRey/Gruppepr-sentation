@@ -1,3 +1,4 @@
+
 body{
     width: 900px;
     margin: auto;
@@ -24,3 +25,27 @@ h1{
     text-align: center;
 
 }
+
+body img{
+width: 100%;
+}
+
+ul#main_menu li {
+    display:block;
+    list-style:none;
+    float:left;
+    }
+    ul#main_menu li a{
+    display: inline-block;
+    background-color: #fefefe;
+    border: 2px solid;
+    padding: 3px;
+    border-radius: 5px 5px;
+    color:rgb(40,40,40);
+    text-decoration:none;
+    }
+    ul#main_menu li a:hover {
+    background-color: #ff0000;
+    border: 3px solid;
+    }
+
