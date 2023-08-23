@@ -9,8 +9,9 @@
 </head>
 <style>
     h1 {
+        max-width: 300px;
         background-color: blue;
-        margin-top: auto;
+        margin: auto;
         text-align: center;
         color: aliceblue;
         padding: 3rem;
@@ -18,6 +19,7 @@
 
     body {
         margin: auto;
+        text-align: center;
     }
 
     #Michael {
@@ -26,14 +28,45 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
+    div {
+        background-color: blue;
+        margin: auto;
+        text-align: center;
+        color: aliceblue;
+        padding: 3rem;
+        max-width: 300px;
+    }
+    /* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+a {font-size: 30px}
+
 </style>
 
 <body>
     <h1>Michael</h1>
     <img src="assets/images/skating-panda.jpeg" alt="Michael" id="Michael">
     <p>22 år, Født og opvokset i Thailand</p>
-    <a href="index.html">tilbage</a>
+    <p>I min fritid kan jeg godt lide at spille fodbold</p>
+    <div>
+    <a href="index.html">Tilbage</a>
+</div>
 </body>
 
 </html>
