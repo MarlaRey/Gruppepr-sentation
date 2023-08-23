@@ -18,7 +18,10 @@ h1{
     margin: auto;
     font-size: 4rem;
     border-radius: 10px;
-
+}
+h1 a{
+    color: white;
+    text-decoration: none;
 }
         /* NAVIGATION */
         .nav-main {
@@ -45,8 +48,8 @@ h1{
           }
           .nav-main a{
             text-decoration: none;
-            padding: 2rem;
-font-size: 30px;
+            padding: 1rem;
+            font-size: 30px;
             color: white;
             margin: 1rem;
           }
